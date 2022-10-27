@@ -55,3 +55,8 @@ body {
     padding-left: 23%;
     padding-right: 23%;
 }
+
+.svg {
+    height: 100px;
+    width:100px;
+}
