@@ -36,4 +36,22 @@ body {
     font-size: 12px;
     border-radius: 0%;
     margin-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.companyname {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.companysubheading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    padding-left: 23%;
+    padding-right: 23%;
 }
