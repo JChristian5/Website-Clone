@@ -56,6 +56,10 @@ body {
     padding-right: 23%;
 }
 
+.whatwedo {
+    background-color: black;
+}
+
 .svg {
     height: 100px;
     width:100px;
