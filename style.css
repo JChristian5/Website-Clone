@@ -39,6 +39,7 @@ body {
     margin-top: 20px;
     padding-left: 25px;
     padding-right: 25px;
+    letter-spacing: 1px;
 }
 
 .companyname {
@@ -121,6 +122,34 @@ body {
     }
 }
 
+@media screen and (max-width: 1200px) {
+    .boximg {
+        margin-right: 75px;
+    }
+
+    .textbox {
+        margin-left: 75px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .boximg {
+        margin-right: 0px;
+    }
+
+    .textbox {
+        margin-left: 0px;
+    }
+
+    .overlay {
+        margin-top: -100px;
+    }
+
+    .header {
+        font-size: 40px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .companyname {
         padding-left: 0%;
@@ -129,7 +158,18 @@ body {
     }
 
     .companysubheading {
-        padding-left: 18%;
-        padding-right: 18%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .boximg {
+        height: 250px;
+        width: 250px;
+    }
+
+    .textbox {
+        height: 250px;
+        width: 250px;
+        font-size: 18px;
     }
 }
