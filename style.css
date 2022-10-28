@@ -25,6 +25,7 @@ body {
     font-weight: 500;
     font-size: 24px;
     padding: 36px;
+    padding-top: 6%;
     background-color: white;
 }
 
@@ -76,7 +77,7 @@ body {
 
 .svg {
     height: 100px;
-    width:100px;
+    width: 100px;
 }
 
 .certificationheader {
@@ -91,4 +92,15 @@ body {
 .certificationdescription {
     color: #f2f2f2;
     font-family: 'Roboto', sans-serif;
+}
+
+.svgfooter {
+    height: 100px;
+    width: 100px;
+}
+
+.footerheading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
 }
